@@ -1,0 +1,49 @@
+@charset "UTF-8";
+.header{
+margin-top:10px;
+	padding:5px;
+/*	border-radius:30px;*/
+	border-radius:10px 10px 0px 0px;
+	width: 960px;
+	margin: auto;
+	background:url(../img/header.png);
+}
+/*contenitore ricerca*/
+.ricerca{
+	width: 960px;
+	height:416px;
+	margin: auto;
+}
+
+.generico{
+	width: 960px;
+	margin: auto;
+}
+
+#ombra{
+text-shadow:0px 0px 10px #000;
+color:#B017B0;
+font-size:20px;
+float:left;
+padding-left:15px;
+}
+
+
+#pSnippet{
+font-size:15px;
+color:#FFF; 
+padding-top:5px;
+
+/*
+
+*/
+}
+
+#CreateSnippet{
+background-color:#5F317B;
+float:right;
+margin-top:5px;
+margin-bottom:5px;
+
+}
+

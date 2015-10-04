@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Profile</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/template.css"
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link href="css/template.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</head>
+
+<body>
+	<div class="container" style="padding-top:5px;">
+
+	<div class="header">
+    	<img src="img/logo.png" alt="logo" class="img-circle">
+    </div>
+      <nav class="navbar navbar-default navbar-static-top" role="navigation" style="width:960px; margin:auto;">
+
+    </nav>
+
+
+
+ 	   <div class="generico">
+
+
+             <div class="row">
+
+
+
+  				 <div class="col-md-8 col-md-push-4">             		<!-- div contenuto  -->
+					<div style="margin-top:10px;">
+                   	 <h3 style="color:#5F317B">Name</h3>
+            		 <textarea id="names" class="form-control" style="resize:none;" rows="3"></textarea>
+                 	 <h3 style="color:#5F317B">Surname</h3>
+            		  <textarea id="surn" class="form-control" style="resize:none;" rows="3"></textarea>
+                            <!-- post -->
+           			  <button  type="button"  id="button1" class="btn btn-danger">Setting</button>
+					</div>
+
+
+               	 </div>
+
+
+
+  				<script>
+
+                $("#button1").click(function(){
+                //$("#display").html("My Favorite Sport is Football.")
+					           $(".name").html($('#names').val())
+                     $(".surname").html($('#surn').val())
+                    alert( "Hello"+" "+$('#names').val()+" "+ $('#surn').val());
+                    });
+                </script>
+
+
+                 <!--div di sinistra -->
+  				<div class="col-md-4 col-md-pull-8">
+                	 <div style="padding-top:20px">
+            		  <p style="text-align:center"> <img   src="img/flexkid.png" alt="logo" class="img-circle " ></p>
+
+
+
+                           <dl class="dl-horizontal" >
+
+  								<dt><p id="ombra">Name</p></dt>
+  								<dd><p id="ombra" class="name">Diego</p></dd>
+                 				<dt><p id="ombra" >Surname</p></dt>
+  								<dd><p id="ombra" class="surname">Caridei</p></dd>
+
+
+
+                                <!-- messaggi ricevuti -->
+                               <!--   <a href="#">Inbox <span class="badge">42</span></a> -->
+
+							</dl>
+
+
+
+
+                  </div> <!-- div sinistra-->
+          	  </div><!--div rov -->
+
+		</div><!-- chiusura generico -->
+
+
+
+ </div><!-- contenitore -->
+</body>
+</html>
